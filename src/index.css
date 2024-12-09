@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .twinkling-stars {
+      animation: twinkle 2s infinite;
+    }
+  
+    .neon-text {
+      color: #fdb2fd;
+      text-shadow: 0 0 5px #fdb2fd, 0 0 10px #fdb2fd, 0 0 15px #fdb2fd;
+    }
+  }
