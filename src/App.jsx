@@ -1,3 +1,17 @@
+import React from "react";
+import MatrixEffect from "./components/MatrixEffect";
+import BalloonShape from "./components/BalloonShape";
+import RevealImage from "./components/RevealImage";
+
+
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <MatrixEffect />
+      <BalloonShape />
+      <RevealImage />
+    </>
+    
+  );
 }
