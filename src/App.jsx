@@ -96,7 +96,7 @@ const App = () => {
 
           {/* Neon Text */}
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-4xl font-bold neon-text">
-            Happy Birthday Dona
+            Happy Birthday Dona!!
           </div>
         </>
       )}
